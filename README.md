@@ -2,9 +2,9 @@
 
 ## 📖 Project Overview
 
-The **Student Learning Portal** is a simple multi-page website developed using **HTML5**. It is designed to provide students with learning resources for web development through organized educational content, a student signup form, and embedded coding tutorials.
+The **Student Learning Portal** is a multi-page website developed using **HTML5** to provide students with a simple and organized platform for learning web development. The portal includes educational content, a student signup form, and embedded coding tutorials from **Apna College**.
 
-This project demonstrates the use of core HTML concepts such as hyperlinks, forms, tables, and iframes.
+This project was created to strengthen my understanding of core HTML concepts such as forms, tables, hyperlinks, iframes, and multi-page website navigation.
 
 ---
 
@@ -25,6 +25,26 @@ This project demonstrates the use of core HTML concepts such as hyperlinks, form
 
 ---
 
+## 📸 Project Preview
+
+### 🏠 Home Page
+
+![Home Page](screenshots/Homepage.png)
+
+---
+
+### 📝 Student Signup Form
+
+![Signup Page](screenshots/Signup_form.png)
+
+---
+
+### 🎥 Coding Videos Page
+
+![Coding Videos](screenshots/Videos.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -33,7 +53,11 @@ student-learning-portal-html/
 ├── README.md
 ├── index.html
 ├── signup.html
-└── videos.html
+├── videos.html
+└── screenshots/
+    ├── Homepage.png
+    ├── Signup_form.png
+    └── Videos.png
 ```
 
 ---
@@ -43,7 +67,7 @@ student-learning-portal-html/
 1. Clone this repository.
 2. Open the project folder.
 3. Open `index.html` using any modern web browser.
-4. Navigate through the website using the available links.
+4. Navigate through the website using the available menu options.
 
 ---
 
@@ -51,18 +75,17 @@ student-learning-portal-html/
 
 ### 🏠 Home (`index.html`)
 
-- Introduction to the Student Learning Portal
+- Student Learning Portal homepage
 - Topics Covered Table
-- Navigation Menu
+- Navigation links to other pages
 
 ### 📝 Signup (`signup.html`)
 
-- Student Registration Form
-- Name
-- Email
-- Password
+- Student registration form
+- Name, Email, Password
 - Gender Selection
 - Course Selection
+- Submit and Reset buttons
 
 ### 🎥 Coding Videos (`videos.html`)
 
@@ -77,22 +100,25 @@ Embedded YouTube tutorials from **Apna College**, including:
 
 - HTML Document Structure
 - Hyperlinks
-- Forms
 - Tables
-- Lists
+- Forms
+- Input Fields
+- Radio Buttons
+- Drop-down Lists
+- Buttons
 - Iframes
 - Embedded YouTube Videos
-- Navigation Between Pages
+- Multi-page Website Navigation
 
 ---
 
 ## 📌 Future Improvements
 
-- Add CSS styling for a modern interface.
-- Make the website fully responsive.
-- Add JavaScript for form validation.
-- Store signup information using a backend database.
-- Include more educational resources and coding tutorials.
+- Add CSS for a modern and responsive user interface.
+- Implement JavaScript for client-side form validation.
+- Store student registration data using a backend database.
+- Add more educational resources and coding tutorials.
+- Deploy the website using GitHub Pages.
 
 ---
 
